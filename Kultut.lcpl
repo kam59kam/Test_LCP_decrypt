@@ -1,0 +1,51 @@
+{
+	"provider": "https://ebooks.ozone.bg",
+	"id": "980de345-2528-4381-b372-e671d41d0846",
+	"issued": "2023-12-08T08:18:28Z",
+	"updated": "2025-03-10T00:00:00Z",
+	"encryption": {
+		"profile": "http://readium.org/lcp/profile-2.0",
+		"content_key": {
+			"algorithm": "http://www.w3.org/2001/04/xmlenc#aes256-cbc",
+			"encrypted_value": "knfH5mmQKVQb01sHkZuGauPVMpPP7kfAmZXdPnwzwCeLm1Bn1+X/3wUlx8guafT6hxZ1uusqeiCp6nSZaaMWGA=="
+		},
+		"user_key": {
+			"algorithm": "http://www.w3.org/2001/04/xmlenc#sha256",
+			"text_hint": "Enter passphrase",
+			"key_check": "rWM1o/wTNAPYS/Mxyk4Yl+jclSvEjZOAAz/bcM8QHo67Q6SunPIpXhsuF0/xGX5j6FfS3u025Hzxl8qgm+1sig=="
+		}
+	},
+	"links": [
+		{
+			"rel": "status",
+			"href": "https://www.ozone.bg/ebook/lcp/licenses/980de345-2528-4381-b372-e671d41d0846/status",
+			"type": "application/vnd.readium.license.status.v1.0+json"
+		},
+		{
+			"rel": "hint",
+			"href": "https://www.ozone.bg/customer/account/",
+			"type": "text/html"
+		},
+		{
+			"rel": "publication",
+			"href": "https://www.ozone.bg/ebook/lcp/contents/0548f4a2-480e-4f19-afad-8c5d3ae4c819",
+			"type": "application/epub+zip",
+			"title": "BKEB0003343N",
+			"length": 1168557,
+			"hash": "96b2d38ba7c928bb4e99b2af14444a64013a5c49a9f6cf5ab03e02c71797a94a"
+		}
+	],
+	"user": {
+		"id": "ozone:5901kamkam@gmail.com"
+	},
+	"rights": {
+		"print": 0,
+		"copy": 0,
+		"start": "2023-12-08T08:18:28Z"
+	},
+	"signature": {
+		"certificate": "MIIDNzCCAh+gAwIBAgIJAO5k4u4+clrjMA0GCSqGSIb3DQEBCwUAMEIxEzARBgNVBAoTCmVkcmxhYi5vcmcxFzAVBgNVBAsTDmVkcmxhYi5vcmcgTENQMRIwEAYDVQQDEwlFRFJMYWIgQ0EwHhcNMjUwMzAzMTUzOTIwWhcNMjcwMzAzMjM1OTU5WjBbMRMwEQYDVQQKEwplZHJsYWIub3JnMSYwJAYDVQQLEx1SZWFkaXVtIExDUCBMaWNlbnNlIFByb3ZpZGVyczEcMBoGA1UEAxMTT3pvbmUgRW50ZXJ0YWlubWVudDCBmzAQBgcqhkjOPQIBBgUrgQQAIwOBhgAEAXQe9kiQfL4N7Ao0n+KiSdd4dmEzPD/7mBpL1iqh956RpOBT4IMOTS4myhFV4/kBbCKX5/veZDzexNnuuQ79n5WlAPovS8gSkEpgllKcCvI/cAeJXFmWjwx+X+tfwJd0PQnCklj5jEec++jBHeZoqKanQwIjHF15vFlkSiJtByRMdwu1o4GeMIGbMB8GA1UdIwQYMBaAFNxc/JPkH5/usLrqUgsrylJc4MmHMB0GA1UdDgQWBBSau462ZgwY1bIorDNaFc3NM/a3gDAOBgNVHQ8BAf8EBAMCB4AwCQYDVR0TBAIwADA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY3JsLmVkcmxhYi50ZWxlc2VjLmRlL3JsL0VEUkxhYl9DQS5jcmwwDQYJKoZIhvcNAQELBQADggEBAA+0HBAoU74mDjqg6vA0ADM3YMNMiTx/VoMot/Euw4qOTRDw1yFzEZoEn5jHrm8eDonvhLPWZLOP8vDqhqu08kjRrWubpzLUPqnez80ubVO6hpFrRZNmuZ02WJ7AK6QpwBzRGxzffHT3VoCCOndZ7i4jS/455SiqcRRXgW8ubgLYni2ykcPQQCaH6hMV3oHQqcE1Xnj9FaSxnQndPHsCZGkHCcus0jUyXjoafD0FnM+hYUxwLiV4e/kl18gw2Jg4cHG3Vi2goI4jPfkd8AYBba9fzFeyg36MHZ/Xt64KHNnUXCaWpTv8xSwKBSSeExv4VXLaUUPi6iqRWxGAr22IvNA=",
+		"value": "AEv7m1R3yLWQoUL5JV91zFknvjfsf9r+hZtBxeowl3xRwaPueNDf+4YYmPEkMCg1PkWvsDimT/xiOegcPHmPDY5hACnFcM1VTc+9HisRjlyNVdRROZ1Zqg+X76Dpuy4jmvpi3KOo//VrDNQKv/14qiXsRkC4hmZW834BDzb9qjT6ajZD",
+		"algorithm": "http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"
+	}
+}
